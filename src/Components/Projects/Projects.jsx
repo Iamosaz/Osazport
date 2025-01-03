@@ -1,17 +1,27 @@
 import React from 'react';
 import { PROJECTS } from '../../constants';
+import { motion } from 'framer-motion'; 
 
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h2 className="text-center text-4xl my-20">Projects</h2>
+      <motion.h2 
+       whileInView={{opacity: 1, y: 0}}
+       initial={{ opacity: 0, y: 100}}
+       transition={{duration:0.7}}
+      className="text-center text-4xl my-20">Projects</motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
           <div
             key={index}
             className="mb-10 flex flex-wrap lg:justify-center"
           >
-            <div className="w-full lg:w-1/4 flex justify-center items-center">
+            <motion.div
+              whileInView={{opacity: 1, y: 0}}
+              initial={{ opacity: 0, y: 100}}
+              transition={{duration:0.5}}
+              
+            className="w-full lg:w-1/4 flex justify-center items-center">
               {/* Center the image */}
               <img
                 src={project.image}
@@ -20,8 +30,12 @@ const Projects = () => {
                 alt=""
                 className="rounded-lg"
               />
-            </div>
-            <div className="w-full max-w-xl lg:w-3/4">
+            </motion.div>
+            <motion.div
+              whileInView={{opacity: 1, y: 0}}
+              initial={{ opacity: 0, y: 100}}
+              transition={{duration:0.7}}
+            className="w-full max-w-xl lg:w-3/4">
                <h6 className='mb-2 font-semibold'>{project.title}</h6>
                <p className='mb-4 text-neutral-400'>{project.description}</p>
                {project.technologies.map((tech,index) => (
@@ -29,7 +43,7 @@ const Projects = () => {
                      {tech}
                   </span>
                ))}
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>
