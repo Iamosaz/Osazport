@@ -3,9 +3,28 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `A Motivated FrontEnd Developer with a knack for crafting robust and scalable web applications. With 4 years of hands-on experience, I have honed my skills in front-end technologies like HTML5,CSS3,Javascript,Tailwind CSS and React.jS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `A Motivated FrontEnd Developer with a knack for crafting robust and scalable web applications. With 4 years of hands-on experience, I have honed my skills in front-end technologies like HTML5,CSS3,Javascript,Tailwind CSS and React.jS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.
+`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. With 4 years of professional experience, I have worked with a variety of technologies, including React.jS,HTML5,CSS3,Javascript, and Tailwind CSS. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. With 4 years of professional experience, I have worked with a variety of technologies, including React.jS,HTML5,CSS3,Javascript, and Tailwind CSS. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.
+
+In addition to my core frontend expertise, I bring 3 years of solid experience in WordPress development. I’ve built dynamic websites using Elementor, WooCommerce, and the Astra theme, focusing on responsive design, performance optimization, and seamless user experience. I’m well-versed in:
+
+Customizing WordPress themes and templates
+
+Managing domains, hosting, and DNS configurations
+
+SEO optimization using plugins like Yoast SEO
+
+E-commerce setup with WooCommerce (payment gateways, product pages, cart/checkout flow)
+
+Plugin management and conflict resolution
+
+Creating landing pages and marketing funnels
+
+Website speed optimization using caching and image compression tools
+
+I’m always looking for innovative ways to bring ideas to life—whether through a custom-coded solution or a well-optimized WordPress setup`;
 
 export const EXPERIENCES = [
   {
@@ -16,21 +35,21 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "Tailwind", "Node.js"],
   },
   {
-    year: "2024 - present",
+    year: "2024 - 2025",
     role: "Frontend Developer",
     company: "Stereokhart llc.",
     description: `Designed and developed user interfaces for web applications using Reactjs. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance and hosting the website using Hostinger.`,
     technologies: ["HTML", "CSS3", "React.js", "Node.js"],
   },
   {
-    year: "2024 - 2024",
+    year: "2023 - 2024",
     role: "Frontend Developer",
     company: "Divnerix Developers",
     description: `Collaborated with cross-functional teams using Git for version control and code collaboration which enhance work flow, in developing responsive web application using HTML5 and React JS, ensuring high quality code and user interface.`,
     technologies: ["Node.js", "React.js", "Javascript", "Tailwind"],
   },
   {
-    year: "2019 - 2019",
+    year: "2018 - 2019",
     role: "IT Data Staff",
     company: "Strict guard security ltd",
     description: `Successfully automated data extraction, achieving 30% reduction in manual reporting time.
@@ -52,8 +71,8 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project2,
     description:
-      "A fully responsive  e-commerce website for a techstart up company with features like course listing, enrollment button,company google location,user form fill section and about company.",
-    technologies: ["HTML", "CSS", "React", "Node.js"],
+      "A fully responsive e-commerce website for a travel and resort company, with features online flight booking, whatsapp action button for quick responses, shop section for catalogs of beautiful places to visit , resort and cost for each,live google map location resort, user form fill section for contact and about company and many more.",
+    technologies: ["WooCommernce", "CSS", "Astra", "Elementor"],
   },
   {
     title: "Portfolio Website",
