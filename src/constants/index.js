@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `A Motivated FrontEnd Developer with a knack for crafting robust and scalable web applications. With 4 years of hands-on experience, I have honed my skills in front-end technologies like HTML5,CSS3,Javascript,Tailwind CSS and React.jS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.
 `;
@@ -65,27 +66,39 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional music publishing e-commerce website with features like services listing, contact button, and user form fill section and about page.",
+       url:"https://stereokhartllc.com/",
     technologies: ["HTML", "CSS", "React", "Node.js"],
+  },
+   {
+     title: "E-Commerce Website",
+    image: project2,
+    description:
+      "A fully responsive e-commerce website for a Cosmetics company, with features landing page,shop section for catalogs of beautiful body skin products and thier prices,chart icon to access products added to it, live google map location for store, user form fill section for contact and about company and many more.",
+      url:"https://sixfigurecosmetics.store/",
+    technologies: ["WooCommernce", "CSS", "Astra", "Elementor"],
   },
   {
     title: "E-Commerce Website",
-    image: project2,
+    image: project3,
     description:
       "A fully responsive e-commerce website for a travel and resort company, with features online flight booking, whatsapp action button for quick responses, shop section for catalogs of beautiful places to visit , resort and cost for each,live google map location resort, user form fill section for contact and about company and many more.",
+      url:"https://travafrique.africa/",
     technologies: ["WooCommernce", "CSS", "Astra", "Elementor"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
+    url:"https://osaz-4ehd.vercel.app",
     technologies: ["HTML", "Tailwind", "React",],
   },
   {
     title: "E-Commerce Website",
-    image: project4,
+    image: project5,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user testimonial page.",
+      url:"https://coffee-shop-orcin-gamma.vercel.app",
     technologies: ["HTML", "Tailwind", "React",],
   },
 ];
